@@ -1,0 +1,51 @@
+body{
+    background-color: lightskyblue;
+    
+}
+
+div {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  top: 150px;
+  
+} 
+
+
+p {
+    font-size: large ;
+}
+
+button{
+  
+  outline: none;
+  text-decoration: none;
+  border-radius: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  text-transform: uppercase;
+  height: 20px;
+  width: 100px;
+  opacity: 1;
+  background-color: #ffffff;
+  border: 1px solid;
+  background-color: rgb(183, 191, 207);
+  font-weight: 500;
+  
+}
+
+#flashed_msg{
+  color:red;
+  font-size: xx-large;
+  font-weight: 700;
+}
+
+#flDebug{
+  visibility: hidden;
+} 
+
